@@ -1,8 +1,10 @@
 # Contrastive Learning with Auxiliary User Detection for Identifying Activities (CLAUDIA)
 
+Anonymous repository for ICMLA 2024 paper review. 
+
 ## Source Code CLAUDIA
 
-We are excited to share our new work progress in improving HAR performance with novel network design. Down below we share the detailed runnable code and configuration template with sampled data (2 batch sliced example).
+We are excited to share our latest work progress in improving HAR performance with novel network design. Down below we share the detailed runnable code and configuration template with sampled data (2 batch sliced example).
 
 We are also sharing more details beyond the 8 page-limited paper contents, with supplementary tables, figures, and experimental result analysis details. 
 
