@@ -1,0 +1,82 @@
+# high level setting
+reduction: "mean"
+batch_size: 1024
+num_workers: 0
+clip_grad: 1000
+gamma: 0.998
+use_cuda: true
+predict_user: true
+mask: true
+hetero: true
+# path
+dataPath: '/home/wge/HHGNNv3/data/extrasensoryRuledRaw/'
+hcPath: 'feature_ruled'
+rawPath: 'raw_ruled_sorted'
+yPath: 'y_ruled'
+weightPath: 'mask_expanded_ruled'
+nodePath: 'nodeInit_ruled'
+hyperIndexPath: 'adj_ruled'
+hyperWeightPath: 'count_ruled'
+hyperAttrPath: 'edgeInit_ruled'
+modelPath: 'model.pkl'
+resultPath: 'result.npy'
+
+# fixed
+users: 60
+phonePlacements: 5
+activities: 12
+hgcn_l1_in_channels: 170
+hgcn_l2_in_channels: -1
+raw_dim: 12
+
+
+# seaching hypers
+# exp setting
+seed: 2
+lr: 1.e-4
+epoch: 150
+
+# loss setting
+lambda1: 0.3
+lambda2: 0.3
+lambda3: 0.06
+lambda_user: 0.03
+lambda_pp: 0.006
+
+# joint setting
+model_dropout1: 0.05
+model_dropout2: 0.05
+model_commonDim: 6144
+model_leakySlope_g: 0.2
+model_leakySlope_x: 0.2
+
+# gnn setting, first layer
+hgcn_l1_before_leakySlope: 0.2
+hgcn_l1_out_channels: 256
+hgcn_l1_use_attention: true
+hgcn_l1_heads: 2
+hgcn_l1_negative_slope: 0.2
+hgcn_l1_dropout: 0.05
+hgcn_l1_bias: true
+hgcn_l1_after_leakySlope: 0.2
+hgcn_l1_concat: false
+
+# gnn setting, second layer
+hgcn_l2_before_leakySlope: 0.2
+hgcn_l2_out_channels: 256
+hgcn_l2_use_attention: false
+hgcn_l2_heads: 2
+hgcn_l2_negative_slope: 0.2
+hgcn_l2_dropout: 0.05
+hgcn_l2_bias: true
+hgcn_l2_after_leakySlope: 0.2
+hgcn_l2_concat: false
+
+# lstm/mlp setting
+hidden_dim: 256
+lstm_num_layers: 2
+lstm_dropout: 0.05
+lstm_bidirectional: true
+
+
+
