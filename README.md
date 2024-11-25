@@ -1,6 +1,6 @@
 # Contrastive Learning with Auxiliary User Detection for Identifying Activities (CLAUDIA)
 
-Repository for CLAUDIA published in ICMLA 2024. 
+Repository for [CLAUDIA](https://scholar.google.com/scholar_url?url=https://arxiv.org/abs/2410.21300&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=17472837782269094928&ei=Rv9EZ-D8Me3Iy9YPxOOLgAs&scisig=AFWwaeboGNVRtricikS6R7Jq0j-P) published in [ICMLA 2024](https://www.icmla-conference.org/icmla24/index.php). 
 
 ## Source Code CLAUDIA
 
