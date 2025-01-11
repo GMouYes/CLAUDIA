@@ -13,7 +13,7 @@ We are also sharing more details beyond the 6 page-limited paper contents, with 
 - folder ``code`` containing all python code
 - folder ``data`` containing sampled data (not the full data)
 
-We showcase an example of running the given code on a sampled data slice. Extrasensory (http://extrasensory.ucsd.edu/#paper.vaizman2017a) is a public dataset and researchers should be able to download and process the full original source dataset (unfortunately, we do not own this dataset). For more details, please refer to their original paper.
+We showcase an example of running the given code on a sampled data slice. [Extrasensory](http://extrasensory.ucsd.edu/#paper.vaizman2017a) is a public dataset and researchers should be able to download and process the full original source dataset (unfortunately, we do not own this dataset). For more details, please refer to their original paper.
 
 ## How to run the code
 - Make sure the required packages are installed with compatible versions. We are aware that torch_geometrics are sensitive to different versions of PyTorch
